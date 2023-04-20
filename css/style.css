@@ -1,0 +1,128 @@
+/* Estilos */ 
+
+* { /*Reset para diferencias entre browsers*/
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	margin: 10px;
+	padding: 5px;
+}
+
+h3 { /*Títulos de las series*/
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin: 10px 0px 10px 0px;
+	color: #5a0598;
+
+}
+
+h4 { /*Títulos menores*/
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	font-style: italic;
+
+}
+
+h5 { /*Títulos menores 2*/
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	text-decoration: underline;
+
+}
+
+p { /*Texto general*/
+	font-family: 'Ubuntu', sans-serif;
+	text-align: left;
+	padding: 20px;
+	color: black;
+}
+
+ol {
+	list-style-type: none;
+	font-family: 'Roboto Slab', serif;
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 10px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+table {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	margin: 3px;
+}
+
+/*Clases*/
+
+.serieimg { /*imagenes de las series*/ 
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	width: 20%;
+
+} 
+
+.serieimg > img { /*imagenes de las series*/
+	margin: 0 auto;
+	width: 100%;
+
+} 
+
+.serie1 {
+	width: 100%;
+	background-color: #F5F5DC;
+	padding: 0px 0px 0px 20px;
+	margin: 20px 0px 20px 0px;
+
+}
+
+.serie1 > p { 
+	background-color: #ecd8b2;
+
+} 
+
+.serie2 {
+	width: 100%;
+	background-color: #ecd5d5;
+	padding: 0px 0px 0px 20px;
+	margin: 20px 0px 20px 0px;
+
+}
+
+.serie2 > p { 
+	background-color: #d59b9b;
+
+} 
+
+.serie3 {
+	width: 100%;
+	background-color: #d9d5ec;
+	padding: 0px 0px 0px 20px;
+	margin: 20px 0px 20px 0px;
+
+}
+
+.serie3 > p { 
+	background-color: #e6b5ef;
+
+} 
+
+.serie4 {
+	width: 100%;
+	background-color: #d5ecd6;
+	padding: 0px 0px 0px 20px;
+	margin: 20px 0px 20px 0px;
+
+}
+
+.serie4 > p { 
+	background-color: #deefb5;
+
+} 
